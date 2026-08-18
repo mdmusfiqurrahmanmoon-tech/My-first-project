@@ -1,0 +1,51 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+   
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    /* eta diyeo majhe ane main a kaj na kore */
+    height: 300px;
+    width: 230px;
+    border: solid salmon 2px;
+    /* border soman,border color,border kotota mota chikon */
+    border-radius: 20px;
+}
+
+#card2{
+    height: 280px;
+    width: 210px;
+
+}
+
+#card3{
+    height: 260px;
+    width: 190px;
+
+}
+
+#card4{
+    height: 240px;
+    width: 170px;
+   
+}
