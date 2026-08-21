@@ -1,0 +1,261 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+#main{
+    display: flex; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-weight:normal;
+    color: rgb(37, 5, 66);
+
+}
+
+
+#arora{
+    height: 709px;
+    width: 500px;
+    background:linear-gradient(150deg, #8d528c, #da641b, #643b85)
+
+}
+
+#normal{
+    height: 709px;
+    width: 950px;
+
+   
+
+}
+
+.input{
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+  margin-top: 250px;
+  margin-left: 350px;
+}
+
+.input input{
+    margin-top:10px;
+    border-radius: 5px;
+    padding: 8px;
+    
+    border: 1px solid;
+   
+}
+
+.input input::placeholder{
+    color: rgb(148, 169, 169);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 350px;
+
+}
+
+.input1 input{
+    margin-top:10px;
+    border-radius: 5px;
+    padding: 8px;
+    
+    border: 1px solid;
+   
+}
+
+.input1 input::placeholder{
+    color: rgb(148, 169, 169);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+#date{
+    display: flex;
+}
+
+.input2{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    margin-top: 25px;
+    margin-left: 350px;
+
+}
+
+.input2 input{
+    margin-top:10px;
+    border-radius: 5px;
+    padding: 8px;
+    
+    border: 1px solid;
+   
+}
+
+.input2 input::placeholder{
+    color: rgb(148, 169, 169);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+
+
+.input3 input{
+    margin-top:55px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 35px;
+    border: 1px solid;
+   
+}
+
+.input3 input::placeholder{
+    color: rgb(148, 169, 169);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+#content{
+    display: flex;
+}
+
+.input4{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 35px;
+
+}
+
+.input4 input{
+    margin-top:10px;
+    border-radius: 5px;
+    padding: 8px;
+    
+    border: 1px solid;
+   
+}
+
+
+#box{
+    background-color: rgb(70, 2, 67);
+    padding: 10px;
+    border-radius: 20px;
+    width: 400px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 50px;
+    cursor: pointer;
+   
+}
+
+#box:hover{
+    background-color: rgb(130, 16, 159);
+}
+
+#cardbox{
+
+   margin-left: -300px;
+   border-radius: 5px;
+   background:linear-gradient(135deg, #589ee9, #9d1e1e, #520e74);
+
+   width: 400px;
+   margin-top: -400px;
+   padding: px;
+   height: 210px;
+ 
+}
+
+#circle{
+    background-color: #ffffff;
+    border-radius: 200px;
+    width:40px;
+    height:40px;
+    transform: translateY(15px);
+    margin-left: 10px;
+}
+
+#circle2{
+    /* background-color: #ffffff; */
+    border-radius: 200px;
+    width:20px;
+    height:20px;
+    transform: translateY(25px);
+    margin-left: 10px;
+    border: 1px solid rgb(248, 244, 244);
+}
+
+#wow{
+    display: flex;
+}
+
+h2{
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 120px;
+}
+
+
+
+p{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+h3{
+  margin-left: 90px;
+  margin-top: 13px;
+  color: aliceblue;
+
+}
+
+#wow2{
+    display: flex;
+}
+
+#box2{
+
+    background-color: #c9cbcd;
+    margin-left:-250px;
+    width: 400px;
+    height: 210px;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+#margin{
+    background-color: #010912;
+    transform: translateY(20px);
+    padding: 20px;
+}
+
+#margin1{
+    background-color: #878b8b;
+    transform: translateY(80px);
+    padding: 8px;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 300px;
+   margin-left: 40px;
+}
+
+
+
+
